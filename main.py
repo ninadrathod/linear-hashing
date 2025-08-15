@@ -9,6 +9,7 @@ for i in range (1,60000):
 
 # insert data in hash
 for transaction in input_array:
+    bucket_id = hash_transaction(transaction[0])
 
 
 
